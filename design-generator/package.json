@@ -1,0 +1,16 @@
+{
+  "name": "design-generator",
+  "version": "1.0.0",
+  "description": "generates a block design for the experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "latin-square": "^2.0.4",
+    "ramda": "^0.26.1",
+    "shuffle-array": "^1.0.1"
+  }
+}
