@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.1" creator="http://www.geoplaner.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- 12/20/2017 5:23:50 AM -->
+<wpt lat="-8.049471926" lon="-34.92262901">
+<name>WP01-287</name>
+</wpt>
+<!-- 12/20/2017 5:24:10 AM -->
+<wpt lat="-8.0491255" lon="-34.92324418">
+<name>WP02-287</name>
+</wpt>
+<!-- 12/20/2017 5:24:50 AM -->
+<wpt lat="-8.04749336" lon="-34.92620256">
+<name>WP03-287</name>
+</wpt>
+<!-- 12/20/2017 5:25:10 AM -->
+<wpt lat="-8.047338354" lon="-34.92648301">
+<name>WP04-287</name>
+</wpt>
+</wpt>
+</gpx>

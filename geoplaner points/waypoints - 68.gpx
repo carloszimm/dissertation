@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.1" creator="http://www.geoplaner.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<!-- 1/21/2018 6:47:03 PM -->
+<wpt lat="-8.049490346" lon="-34.92255653">
+<name>WP01-68</name>
+</wpt>
+<!-- 1/21/2018 6:47:33 PM -->
+<wpt lat="-8.049289757" lon="-34.92291841">
+<name>WP06-68</name>
+</wpt>
+<!-- 1/21/2018 6:48:03 PM -->
+<wpt lat="-8.047995007" lon="-34.92526159">
+<name>WP06-68</name>
+</wpt>
+<!-- 1/21/2018 6:48:33 PM -->
+<wpt lat="-8.047429907" lon="-34.92623854">
+<name>WP06-68</name>
+</wpt>
+</gpx>
