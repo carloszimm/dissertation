@@ -1,0 +1,25 @@
+{
+  "name": "application-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloszimm/application-experiment.git"
+  },
+  "author": "carloszimm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloszimm/application-experiment/issues"
+  },
+  "homepage": "https://github.com/carloszimm/application-experiment#readme",
+  "dependencies": {
+    "cepjs-core": "^1.0.10",
+    "cepjs-most": "^1.0.2",
+    "cepjs-rx": "^1.0.2",
+    "socket.io": "^2.2.0"
+  }
+}
