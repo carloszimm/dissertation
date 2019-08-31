@@ -5,6 +5,7 @@ import java.util.Properties;
 import io.socket.client.IO;
 import io.socket.client.Socket;
 import io.socket.emitter.Emitter;
+import io.socket.engineio.client.transports.WebSocket;
 
 import org.json.JSONObject;
 
@@ -66,7 +67,11 @@ public class CepjsInterface extends CEP_EngineInterface{
 		// informed through the GUI
 		String address = this.retrieveConnectionProperty("address");
 		
-		this.socket = IO.socket("http://" + address);
+		// sets websocket as the default protocol
+		IO.Options options = new IO.Options();
+		options.transports = new String[] { WebSocket.NAME };
+		
+		this.socket = IO.socket("http://" + address, options);
 		this.socket.on(Socket.EVENT_CONNECT, new Emitter.Listener() {
 			@Override
 			  public void call(Object... args) {
@@ -138,27 +143,13 @@ public class CepjsInterface extends CEP_EngineInterface{
         destroyInstance();
 	}
 
-	/**
-     * Retrieves the list of input streams on the CEP engine
-     * (optional function).
-     *
-     * @return              the list of input streams on the CEP engine
-     * @throws Exception    if the list cannot be retrieved.
-     */
+	//optional method
     public String[] getInputStreamList() throws Exception{
-    	//optional method
     	return new String[0];
     }
-
-    /**
-     * Retrieves the list of output streams on the CEP engine
-     * (optional function).
-     *
-     * @return              the list of ouput streams on the CEP engine
-     * @throws Exception    if the list cannot be retrieved.
-     */
+    
+    //optional method
     public String[] getOutputStreamList() throws Exception{
-    	//optional method
     	return new String[0];
     }
 
