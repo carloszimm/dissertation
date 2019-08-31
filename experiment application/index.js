@@ -1,10 +1,13 @@
-const io = require('socket.io')(80);
 const events = require('events');
 const eventEmitter = new events.EventEmitter();
 const fs = require('fs');
+
+const io = require('socket.io')(80);
+// sets websocket as the default protocol
+io.set('transports', ['websocket']);
+
 const cepjsRx = require('cepjs-rx');
 const cepjsMost = require('cepjs-most');
-
 let cepjs;
 
 const chosenLib = process.argv[2];
