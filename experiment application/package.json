@@ -20,6 +20,6 @@
     "cepjs-core": "^1.0.10",
     "cepjs-most": "^1.0.2",
     "cepjs-rx": "^1.0.2",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   }
 }
